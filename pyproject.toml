@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "smt-playground"
+version = "0.1.0"
+description = ""
+authors = ["karmacoma <karma@coma.lol>"]
+readme = "README.md"
+packages = [{include = "smt_playground"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+pysmt = "^0.9.5"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
